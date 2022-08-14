@@ -11,5 +11,14 @@ namespace asp_net_mvc_bootstrap_5.Controllers
 			return View();
 		}
 
+		public IActionResult ForgotPassword()
+		{
+			return View();
+		}
+
+		public IActionResult ForgotPasswordConfirmation()
+		{
+			return View();
+		}
 	}
 }
