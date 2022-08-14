@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row vh-100">
+            <div class="col bg-warning position-relative d-none d-lg-block">
+                <div class="position-absolute bottom-0 p-3">
+                    <h4 class="display-4">Bootstrap 5 Template</h4>
+                    <h6 class="display-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h6>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-xxl-3 bg-dark text-light">
+                <div class="container p-4">
+                    <main role="main" class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
+                <div class="position-absolute bottom-0 mx-2 text-muted">
+                    <p>&copy; 2022 App Template</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/font-awesome/js/all.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
