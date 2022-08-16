@@ -18,6 +18,16 @@ namespace asp_net_mvc_bootstrap_5.Controllers
 			return View();
 		}
 
+		public IActionResult Timeline()
+		{
+			return View();
+		}
+
+		public IActionResult TimelineDark()
+		{
+			return View();
+		}
+
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
 		{
