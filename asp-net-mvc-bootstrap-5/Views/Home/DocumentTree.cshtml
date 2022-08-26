@@ -1,0 +1,603 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h3>Document Tree</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <div class="row">
+
+            <div class="col-lg-7">
+
+                <h5>Normal</h5>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-root"
+                                    aria-expanded="true" aria-controls="folder-collapseOne">
+                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Root
+                            </button>
+                        </h2>
+                        <div id="folder-root" class="accordion-collapse collapse show">
+                            <div class="accordion-body p-0 ps-5">
+
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f1"
+                                                    aria-expanded="true" aria-controls="folder-collapseOne">
+                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #1
+                                            </button>
+                                        </h2>
+                                        <div id="folder-f1" class="accordion-collapse collapse show">
+                                            <div class="accordion-body p-0 ps-5">
+
+                                                <div class="accordion">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f11"
+                                                                    aria-expanded="true" aria-controls="folder-collapseOne">
+                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #1.1
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-f11" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-5">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 3.pdf
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show text-dark">
+                                                                            <div class="accordion-body">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-word text-primary fa-2x me-2"></i> Word File 1.docx
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f12"
+                                                                    aria-expanded="true" aria-controls="folder-collapseOne">
+                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #1.2
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-f12" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-5">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f121"
+                                                                                    aria-expanded="true" aria-controls="folder-collapseOne">
+                                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #1.2.1
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-f121" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body">
+                                                                                <small>This folder is empty.</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f122"
+                                                                                    aria-expanded="true" aria-controls="folder-collapseOne">
+                                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #1.2.2
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-f122" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-0 ps-5">
+                                                                                <div class="accordion">
+                                                                                    <div class="accordion-item">
+                                                                                        <div class="accordion-collapse collapse show">
+                                                                                            <div class="accordion-body">
+                                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 3.pdf
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="accordion-item">
+                                                                                        <div class="accordion-collapse collapse show">
+                                                                                            <div class="accordion-body">
+                                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                                    <i class="fa-regular fa-file-word text-primary fa-2x me-2"></i> Word File 1.docx
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 2.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 3.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f2"
+                                                    aria-expanded="true" aria-controls="folder-collapseTwo">
+                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #2
+                                            </button>
+                                        </h2>
+                                        <div id="folder-f2" class="accordion-collapse collapse show">
+                                            <div class="accordion-body p-0 ps-5">
+                                                <div class="accordion">
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 6.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 7.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f3"
+                                                    aria-expanded="true" aria-controls="folder-collapseThree">
+                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #3
+                                            </button>
+                                        </h2>
+                                        <div id="folder-f3" class="accordion-collapse collapse show">
+                                            <div class="accordion-body p-0 ps-5">
+                                                <div class="accordion">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f31"
+                                                                    aria-expanded="true" aria-controls="folder-collapseThree">
+                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #3.1
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-f31" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body">
+                                                                <small>This folder is empty.</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f32"
+                                                                    aria-expanded="true" aria-controls="folder-collapseThree">
+                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #3.2
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-f32" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-5">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f321"
+                                                                                    aria-expanded="true" aria-controls="folder-collapseThree">
+                                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #3.2.1
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-f321" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body">
+                                                                                <small>This folder is empty.</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f322"
+                                                                                    aria-expanded="true" aria-controls="folder-collapseThree">
+                                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #3.2.2
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-f322" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-0 ps-5">
+                                                                                <div class="accordion">
+                                                                                    <div class="accordion-item">
+                                                                                        <div class="accordion-collapse collapse show">
+                                                                                            <div class="accordion-body">
+                                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 8.pdf
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-f33"
+                                                                    aria-expanded="true" aria-controls="folder-collapseThree">
+                                                                <i class="fa-regular fa-folder text-warning fa-2x me-2"></i> Folder #3.3
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-f33" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-5">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 8.pdf
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-2x me-2"></i> PDF File 9.pdf
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-5">
+
+                <h5>Compact</h5>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-root"
+                                    aria-expanded="true" aria-controls="folder-sm-root">
+                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Root
+                            </button>
+                        </h2>
+                        <div id="folder-sm-root" class="accordion-collapse collapse show">
+                            <div class="accordion-body p-0 ps-3">
+
+
+                                <div class="accordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f1"
+                                                    aria-expanded="true">
+                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #1
+                                            </button>
+                                        </h2>
+                                        <div id="folder-sm-f1" class="accordion-collapse collapse show">
+                                            <div class="accordion-body p-0 ps-3">
+
+                                                <div class="accordion">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f11"
+                                                                    aria-expanded="true">
+                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #1.1
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-sm-f11" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-3">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-2">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 3.pdf
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-2">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-word text-primary fa-1x me-2"></i> Word File 1.docx
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f12"
+                                                                    aria-expanded="true">
+                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #1.2
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-sm-f12" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-3">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f121"
+                                                                                    aria-expanded="true">
+                                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #1.2.1
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-sm-f121" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-2">
+                                                                                <small>This folder is empty.</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f122"
+                                                                                    aria-expanded="true">
+                                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #1.2.2
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-sm-f122" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-0 ps-3">
+                                                                                <div class="accordion">
+                                                                                    <div class="accordion-item">
+                                                                                        <div class="accordion-collapse collapse show">
+                                                                                            <div class="accordion-body p-2">
+                                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 3.pdf
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="accordion-item">
+                                                                                        <div class="accordion-collapse collapse show">
+                                                                                            <div class="accordion-body p-2">
+                                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                                    <i class="fa-regular fa-file-word text-primary fa-1x me-2"></i> Word File 1.docx
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-2">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 2.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-2">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 3.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f2"
+                                                    aria-expanded="true">
+                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #2
+                                            </button>
+                                        </h2>
+                                        <div id="folder-sm-f2" class="accordion-collapse collapse show">
+                                            <div class="accordion-body p-0 ps-3">
+                                                <div class="accordion">
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-2">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 6.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <div class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-2">
+                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 7.pdf
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f3"
+                                                    aria-expanded="true">
+                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #3
+                                            </button>
+                                        </h2>
+                                        <div id="folder-sm-f3" class="accordion-collapse collapse show">
+                                            <div class="accordion-body p-0 ps-3">
+                                                <div class="accordion">
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f31"
+                                                                    aria-expanded="true">
+                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #3.1
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-sm-f31" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-2">
+                                                                <small>This folder is empty.</small>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f32"
+                                                                    aria-expanded="true">
+                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #3.2
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-sm-f32" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-3">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f321"
+                                                                                    aria-expanded="true">
+                                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #3.2.1
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-sm-f321" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-2">
+                                                                                <small>This folder is empty.</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <h2 class="accordion-header">
+                                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f322"
+                                                                                    aria-expanded="true">
+                                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #3.2.2
+                                                                            </button>
+                                                                        </h2>
+                                                                        <div id="folder-sm-f322" class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-0 ps-3">
+                                                                                <div class="accordion">
+                                                                                    <div class="accordion-item">
+                                                                                        <div class="accordion-collapse collapse show">
+                                                                                            <div class="accordion-body p-2">
+                                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 8.pdf
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button p-2 text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#folder-sm-f33"
+                                                                    aria-expanded="true">
+                                                                <i class="fa-regular fa-folder text-warning fa-1x me-2"></i> Folder #3.3
+                                                            </button>
+                                                        </h2>
+                                                        <div id="folder-sm-f33" class="accordion-collapse collapse show">
+                                                            <div class="accordion-body p-0 ps-3">
+                                                                <div class="accordion">
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-2">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 8.pdf
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="accordion-item">
+                                                                        <div class="accordion-collapse collapse show">
+                                                                            <div class="accordion-body p-2">
+                                                                                <a href="#" class="text-decoration-none text-dark">
+                                                                                    <i class="fa-regular fa-file-pdf text-danger fa-1x me-2"></i> PDF File 9.pdf
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
